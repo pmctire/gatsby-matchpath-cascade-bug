@@ -14,5 +14,18 @@ exports.onCreatePage = ({ page, actions }) => {
         matchPath: '/dynamic/*'
       })
       break
+
+    case '/_workaround/thing/':
+      createPage({
+        ...page,
+        matchPath: '/workaround/thing/:id/'
+      })
+      break
+    case '/_workaround/fallback/':
+      createPage({
+        ...page,
+        matchPath: '/workaround/*'
+      })
+      break
   }
 }
