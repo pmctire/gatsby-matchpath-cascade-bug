@@ -4,9 +4,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
+    "dev-server": "gatsby develop",
+    "serve-static": "gatsby build && gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.32.3",
