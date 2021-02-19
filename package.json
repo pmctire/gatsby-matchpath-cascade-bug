@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-multiple-match-path",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "start": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
